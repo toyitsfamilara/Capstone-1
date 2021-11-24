@@ -1,0 +1,88 @@
+
+.navbar{
+	background-color: #350B33;
+	padding: 0;
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.nav-item{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navbar-nav{
+	margin-right: 30px;
+	font-family: 'Outfit', sans-serif;
+}
+
+.name{
+	color: white;
+	font-size: 5em;
+	letter-spacing: 20px;
+}
+
+.navbar-brand{
+	margin-left: 30px;
+
+}
+
+.web-developer{
+	color: white;
+	margin-top: 50px;
+	letter-spacing: 20px;
+}
+
+.intro{
+	color: white;
+	margin-top: 60px;
+	font-size: 20px;
+	letter-spacing: 5px;
+
+}
+#hero-banner{
+	background-image: url(file:///C:/Users/ian%20familara/Documents/b-146/csp-1/assets/purple-planet.jpg);
+	height: 646px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	padding-top: 5%;
+
+}
+
+.about{
+	background-color: #2B1229;
+	color: whitesmoke;
+	padding: 5%;
+	height: 646px;
+}
+
+.projects{
+	background-color: #2B1229;
+	color: whitesmoke;
+	padding: 5%;
+	height: 646px;
+	text-align: center;
+}
+
+.contact{
+	background-color: #2B1229;
+	color: whitesmoke;
+	padding: 5%;
+	height: 646px;
+	text-align: center;
+}
+#contact{
+	font-size: 50px;
+}
+
+.chat{
+	font-size: 20px;
+}
+
+.form-floating{
+	color: gray;
+}
