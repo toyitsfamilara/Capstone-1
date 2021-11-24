@@ -71,7 +71,7 @@
 .contact{
 	background-color: #2B1229;
 	color: whitesmoke;
-	padding: 5%;
+	padding: 3%;
 	height: 646px;
 	text-align: center;
 }
@@ -85,4 +85,8 @@
 
 .form-floating{
 	color: gray;
+}
+
+.btn{
+	margin-top: 10px;
 }
