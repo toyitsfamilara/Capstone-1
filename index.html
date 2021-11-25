@@ -82,7 +82,7 @@
       <a href="https://itoyfamilara.wixsite.com/portfolio"><i class="bi bi-globe2"></i></a>
       </div>  
     </div>
-      <div class="col-md-6">
+      <div class="my-image col-md-6">
         <img src="assets/real-friends11.jpg" class="img-fluid">
       </div>        
   </div>   
@@ -93,20 +93,23 @@
 <!-- Start of Projects -->
 <section class="projects">
   <h1 id="projects">< / projects ></h1>
-  <p class="info-projects">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p class="info-projects">
+    <figure class="text-center">
+    <blockquote class="blockquote">
+     <p>“Hope” is the thing with feathers that perches in the soul, And sings the tune without the words, And never stops - at all.</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+     Emily Dickinson in <cite title="Source Title">"There's a certain Slant of light."</cite>
+    </figcaption>
+     </figure></p>
 
 
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-md-4">
-     <div class="card shadow-lg" style="width: 20rem;">
+     <div class="card shadow-lg p-2">
       <div class="inner class">
-      <img src="file:///C:/Users/ian%20familara/Documents/b-146/csp-1/assets/kevin-saint-grey-abstract-photographs-1.jpg" class="card-img-top" alt="...">
+      <img src="file:///C:/Users/ian%20familara/Documents/b-146/csp-1/assets/kevin-saint-grey-abstract-photographs-1.jpg" class="card-img-top" alt="this is image">
       </div>
       <div class="card-body">
       <h5 class="card-title">Company Profile</h5>
@@ -116,9 +119,9 @@
      </div>    
     </div>
     <div class="col-md-4">
-      <div class="card shadow" style="width: 20rem;">
+      <div class="card shadow-lg p-2">
       <div class="inner class">
-      <img src="file:///C:/Users/ian%20familara/Documents/b-146/csp-1/assets/pexels-photo-251287-800x450.jpg" class="card-img-top" alt="...">
+      <img src="file:///C:/Users/ian%20familara/Documents/b-146/csp-1/assets/pexels-photo-251287-800x450.jpg" class="card-img-top" alt="this is image">
       </div>
       <div class="card-body">
       <h5 class="card-title">Bootstrap Grid System</h5>
@@ -128,9 +131,9 @@
       </div> 
     </div>
     <div class="col-md-4">
-      <div class="card shadow" style="width: 20rem;">
+      <div class="card shadow -lg p-2">
       <div class="inner class">
-      <img src="file:///C:/Users/ian%20familara/Documents/b-146/csp-1/assets/Creative-Pictures-of-Abstract-Photography-26.jpg" class="card-img-top" alt="...">
+      <img src="file:///C:/Users/ian%20familara/Documents/b-146/csp-1/assets/Creative-Pictures-of-Abstract-Photography-26.jpg" class="card-img-top" alt="this is image">
       </div>
       <div class="card-body">
       <h5 class="card-title">CSS Selectors</h5>
@@ -152,6 +155,7 @@ Drop me a line if you fancy a chat.</p>
 <div class="container">
   <div class="row">
     <div class="col-md-6">
+  <form action="">
   <div class="form-floating mb-3">
   <input type="text" class="form-control" id="floatingInput" required>
   <label for="floatingInput">Username</label>
@@ -169,9 +173,10 @@ Drop me a line if you fancy a chat.</p>
   <label for="floatingTextarea2">Message</label>  
 </div>
 <div class="d-grid gap-2 mb-3">
-  <button class="btn btn-outline-info" type="button">Send Message</button>
+  <button class="btn btn-outline-info" type="submit">Send Message</button>
 </div>
 </div>
+</form>
 
      <div class="col-md-6">
       <div class="map-wrapper">
@@ -188,45 +193,39 @@ Drop me a line if you fancy a chat.</p>
 <!-- Start of Footer -->
 <section>
   <footer class="footer">
-    <div class="container-footer">
+    <div class="container">
       <div class="row">
         <div class="footer-col">
-          <ul>
-            <li><a href="#home">Home</li>
-            <li><a href="#about">About</li>
-            <li><a href="#projects">Projects</li>
-            <li><a href="#contact">Contact</li>
-          </ul>          
-        </div>
-        <div class="footer-col">
-          <ul>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Search</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Community</a></li>
-          </ul>          
-        </div>
-         <div class="footer-col">
-          <h5>Get our newsletter</h5>
-<ul>     
-<form>
-  <div class="mb-3">
-    <div class="form-floating mb-3">
-    <input type="email" class="form-control" id="floatingInput" required>
-    <label for="floatingInput">Email address</label>
-  </div>
-    <div id="email" class="form-text">We'll never share your email with anyone else.</div>
-  </div>
-  <button type="submit" class="btn btn-primary">Subcribe</button>
-</form>
-    
-          
-            <li><a href="#">Privacy</li>
-            <li><a href="#">Community</li>
-          </ul>          
-        </div>               
+          <div class="col-md-2 col-lg-2 col-xl-2">
+            <ul>
+              <li><a href="#home">Home</li>
+              <li><a href="#about">About</li>
+              <li><a href="#projects">Projects</li>
+              <li><a href="#contact">Contact</li>
+            </ul>          
+          </div>
+          <div class="footer-col">
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Search</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>          
+          </div>
+          <div class="footer-col">
+            <h5>Get our newsletter</h5>
+          <form>
+            <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" required>
+            <label for="floatingInput">Email address</label>
+            </div>
+            <div id="email" class="form-text">We'll never share your email with anyone else.</div>
+            <button type="submit" class="btn btn-primary d-grid">Subcribe</button>
+          </form>        
+        </div>              
       </div>
-    </div>
+     </div>
+    </div> 
   </footer>
 </section>
 <!-- End of Footer -->

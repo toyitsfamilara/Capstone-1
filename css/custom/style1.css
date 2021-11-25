@@ -32,15 +32,14 @@ html{
 }
 
 .webdev{
-	font-size: 3rem;
+	font-size: 2rem;
 	font-family: 'Inspector General', sans-serif;
 
 }
 
 .amazing{
-	font-size: 20px;
+	font-size: 30px;
 	margin-top:10%;
-	letter-spacing: 5px;
 
 }
 #hero-banner{
@@ -77,6 +76,10 @@ html{
 	margin-right: 20px;
 }
 
+.my-image{
+	padding-top: 10px;
+}
+
 .connect{
 	font-size: 20px;
 }
@@ -105,9 +108,12 @@ html{
 	padding: 5%;
 	height: 100%;
 	text-align: center;
+
 }
 #contact{
-	font-size: 50px;
+	color: #995D81 !important;
+	font-size: 3em;
+	font-family: 'Inspector General', sans-serif;
 }
 
 .chat{
@@ -154,11 +160,6 @@ html{
 	color: whitesmoke;
 }
 
-.footer{
-	background-color: #514551;
-
-}
-
 .container .card{
 	margin-top: 5%;
 	background-color: #6E586D;
@@ -177,10 +178,49 @@ html{
 	transform: scale(1.5);
 }
 
+.footer{
+	background-color: #514551;
+	padding: 5px 0;
+
+}
+
 .container-footer{
-	max-width: 1170px;
+	max-width: 500px;
 	margin: auto;
 }
 
+ul{
+	list-style: none;
+}}
 
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
 
+}
+
+.row .footer-col{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.btn{
+	margin-bottom: 20px;
+}
+
+input[type=text] {
+	background-color: #E1D3E1;
+}
+input[type=email] {
+	background-color: #E1D3E1;
+}
+input[type=tel] {
+	background-color: #E1D3E1;
+}
+textarea[class=form-control] {
+	background-color: #E1D3E1;
+}
+
+.footer-col ul li{
+		color: whitesmoke;
+}
