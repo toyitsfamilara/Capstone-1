@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 
 .navbar{
 	background-color: #350B33;
@@ -18,10 +21,9 @@
 	font-family: 'Outfit', sans-serif;
 }
 
-.name{
-	color: white;
-	font-size: 5em;
-	letter-spacing: 20px;
+.banner-title{
+	font-family: 'Inspector General', sans-serif;
+	font-size: 3rem;
 }
 
 .navbar-brand{
@@ -29,20 +31,22 @@
 
 }
 
-.web-developer{
-	color: white;
-	margin-top: 50px;
-	letter-spacing: 20px;
+.webdev{
+	font-size: 3rem;
+	font-family: 'Inspector General', sans-serif;
+
 }
 
-.intro{
-	color: white;
-	margin-top: 60px;
+.amazing{
 	font-size: 20px;
+	margin-top:10%;
 	letter-spacing: 5px;
 
 }
 #hero-banner{
+	color: whitesmoke;
+	text-align: center;
+	/*font-family: 'Bauhaus Modern', sans-serif;*/
 	background-image: url(file:///C:/Users/ian%20familara/Documents/b-146/csp-1/assets/purple-planet.jpg);
 	height: 646px;
   	background-position: center;
@@ -50,6 +54,8 @@
   	background-size: cover;
   	position: relative;
   	padding-top: 5%;
+  	justify-content: center;
+  	word-break: break-all;
 
 }
 
@@ -57,22 +63,47 @@
 	background-color: #2B1229;
 	color: whitesmoke;
 	padding: 5%;
-	height: 646px;
+	height: 100%;
+}
+
+#about{
+	color: #995D81 !important;
+	font-size: 3em;
+	font-family: 'Inspector General', sans-serif;
+}
+
+.about-info{
+	margin-top: 50px;
+	margin-right: 20px;
+}
+
+.connect{
+	font-size: 20px;
+}
+
+#projects{
+	color: #995D81 !important;
+	font-size: 3em;
+	font-family: 'Inspector General', sans-serif;
 }
 
 .projects{
 	background-color: #2B1229;
 	color: whitesmoke;
 	padding: 5%;
-	height: 646px;
+	height: 100%;
 	text-align: center;
+}
+
+.info-projects{
+	margin-top: 50px;
 }
 
 .contact{
 	background-color: #2B1229;
 	color: whitesmoke;
-	padding: 3%;
-	height: 646px;
+	padding: 5%;
+	height: 100%;
 	text-align: center;
 }
 #contact{
@@ -90,3 +121,66 @@
 .btn{
 	margin-top: 10px;
 }
+
+.googlemap{
+	width: 100%;
+}
+
+.map-wrapper{
+	max-width: 500px;
+}
+
+@media (min-width:  544px) {
+	.banner-title, .webdev, #about, #projects, #contact {font-size: 3rem;}
+}
+
+@media (min-width: 768px) {
+	.banner-title, .webdev, #about, #projects, #contact {font-size: 3rem;}
+}
+
+@media (min-width: 992px) {
+	.banner-title, .webdev, #about, #projects, #contact {font-size: 3rem;}
+}
+
+@media (min-width: 1200px) {
+	.banner-title, .webdev, #about, #projects, #contact {font-size: 5rem;}
+}
+
+.media .bi{
+	padding: 10px;
+}
+
+.card{
+	color: whitesmoke;
+}
+
+.footer{
+	background-color: #514551;
+
+}
+
+.container .card{
+	margin-top: 5%;
+	background-color: #6E586D;
+	text-shadow: 0 0 3px #F9F4F9;
+}
+
+.inner{
+	overflow: hidden;
+}
+
+.inner img{
+	transition: all 1.5s ease;
+}
+
+.inner:hover img{
+	transform: scale(1.5);
+}
+
+.container-footer{
+	max-width: 1170px;
+	margin: auto;
+}
+
+
+
