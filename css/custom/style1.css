@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Outfit&display=swap');
 
 .navbar{
 	background-color: #350B33;
@@ -42,7 +43,7 @@
 #hero-banner{
 	color: whitesmoke;
 	text-align: center;
-	background-image: url(assets/purple-planet.jpg);
+	background-image: url(file:///C:/Users/ian%20familara/Documents/b-146/csp-1/assets/purple-planet.jpg);
 	height: 646px;
   	background-position: center;
   	background-repeat: no-repeat;
