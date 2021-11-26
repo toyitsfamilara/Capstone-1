@@ -55,11 +55,11 @@
   	padding-top: 5%;
   	justify-content: center;
   	word-break: break-all;
-	background: hsla(260, 28%, 53%, 1);
+	/*background: hsla(260, 28%, 53%, 1);
 	background: linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(290, 49%, 24%, 0.8) 50%, hsla(288, 42%, 71%, 1) 100%);
 	background: -moz-linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(290, 49%, 24%, 0.8) 50%, hsla(288, 42%, 71%, 1) 100%);
 	background: -webkit-linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(290, 49%, 24%, 0.8) 50%, hsla(288, 42%, 71%, 1) 100%);
-
+*/
 }
 
 .about{
