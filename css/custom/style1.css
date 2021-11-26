@@ -45,7 +45,7 @@
 .jumbotron{
 	color: whitesmoke;
 	text-align: center;
-	background-image: url('/css/custom/purpleplanet.jpg');
+	background-image: url('assets/purpleplanet.jpg');
 /*	background-color: purple;*/
 	height: 646px;
   	background-position: center;
