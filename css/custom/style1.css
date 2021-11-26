@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Outfit&display=swap');
 
+
 .navbar{
 	background-color: #350B33;
 	padding: 0;
@@ -40,10 +41,11 @@
 	margin-top:10%;
 
 }
-#hero-banner{
+.hero-banner{
 	color: whitesmoke;
 	text-align: center;
-	background-image: url('assets/purple-planet');
+/*	background-image: url('assets/purple-planet');*/
+	background-color: purple;
 	height: 646px;
   	background-position: center;
   	background-repeat: no-repeat;
@@ -195,7 +197,7 @@ textarea[class=form-control] {
 }
 
 .footer{
-	background-color: #292c2f;
+	background-color: #2c0735;
 	color: whitesmoke;
 	padding: 10px
 }
