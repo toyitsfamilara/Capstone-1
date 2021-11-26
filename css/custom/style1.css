@@ -136,7 +136,7 @@
 }
 
 @media (min-width:  544px) {
-	.banner-title, .webdev, #about, #projects, #contact {font-size: 3rem;}
+	.-title, .webdev, #about, #projects, #contact {font-size: 3rem;}
 }
 
 @media (min-width: 768px) {
@@ -223,3 +223,5 @@ textarea[class=form-control] {
 @media (min-width: 1200px) {
 	.footer {font-size: 20px;}
 }
+
+
