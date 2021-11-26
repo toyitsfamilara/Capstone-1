@@ -43,7 +43,7 @@
 #hero-banner{
 	color: whitesmoke;
 	text-align: center;
-	background-image: url('Assets/purple-planet.jpg');
+	background-image: url('assets/purple-planet');
 	height: 646px;
   	background-position: center;
   	background-repeat: no-repeat;
