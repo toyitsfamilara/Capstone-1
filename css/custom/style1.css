@@ -42,19 +42,19 @@
 
 }
 
-.jumbotron{
+/*.jumbotron{
 	color: whitesmoke;
-	text-align: center;
+	text-align: center;*/
 	/*background-image: url('file:///C:/Users/ian%20familara/Documents/b-146/csp-1/assets/purpleplanet.jpg');*/
 	/*background-color: #2E1C2F;*/
-	height: 646px;
+	/*height: 646px;
   	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
   	position: relative;
   	padding-top: 5%;
   	justify-content: center;
-  	word-break: break-all;
+  	word-break: break-all;*/
 	/*background: hsla(260, 28%, 53%, 1);
 	background: linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(290, 49%, 24%, 0.8) 50%, hsla(288, 42%, 71%, 1) 100%);
 	background: -moz-linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(290, 49%, 24%, 0.8) 50%, hsla(288, 42%, 71%, 1) 100%);
