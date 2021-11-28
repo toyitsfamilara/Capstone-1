@@ -42,25 +42,6 @@
 
 }
 
-/*.jumbotron{
-	color: whitesmoke;
-	text-align: center;*/
-	/*background-image: url('file:///C:/Users/ian%20familara/Documents/b-146/csp-1/assets/purpleplanet.jpg');*/
-	/*background-color: #2E1C2F;*/
-	/*height: 646px;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	position: relative;
-  	padding-top: 5%;
-  	justify-content: center;
-  	word-break: break-all;*/
-	/*background: hsla(260, 28%, 53%, 1);
-	background: linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(290, 49%, 24%, 0.8) 50%, hsla(288, 42%, 71%, 1) 100%);
-	background: -moz-linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(290, 49%, 24%, 0.8) 50%, hsla(288, 42%, 71%, 1) 100%);
-	background: -webkit-linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(290, 49%, 24%, 0.8) 50%, hsla(288, 42%, 71%, 1) 100%);
-*/
-
 
 .about{
 	background-color: #2B1229;
@@ -141,7 +122,7 @@
 }
 
 @media (min-width:  544px) {
-	.-title, .webdev, #about, #projects, #contact {font-size: 3rem;}
+	.banner-title, .webdev, #about, #projects, #contact {font-size: 3rem;}
 }
 
 @media (min-width: 768px) {
@@ -181,6 +162,7 @@
 .inner:hover img{
 	transform: scale(1.5);
 }
+
 
 
 input[type=text] {
@@ -227,4 +209,13 @@ textarea[class=form-control] {
 
 @media (min-width: 1200px) {
 	.footer {font-size: 20px;}
+}
+
+.jumbotron{
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    padding-top: 5%;
+    justify-content: center;
+    word-break: break-all;
 }
